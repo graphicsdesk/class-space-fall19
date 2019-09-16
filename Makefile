@@ -1,8 +1,4 @@
-.PHONY: download process
-
-download:
-	# curl https://data.cityofnewyork.us/api/geospatial/nqwf-w8eh?method=export&format=Shapefile
-  echo "TODO"
+.PHONY: process download
 
 process:
-	mapshaper []
+	mapshaper ./shapefiles/geo_export_5f713fb2-ba5c-4cd0-8e35-29a4f2e88892.shp -points -o ./shapefiles/building_points.shp
