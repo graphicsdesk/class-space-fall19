@@ -9,7 +9,7 @@
         "checkBox_ExportAttrs": false,
         "checkBox_Visible": true,
         "comboBox_Label": null,
-        "comboBox_ObjectType": "Sphere",
+        "comboBox_ObjectType": "Cylinder",
         "comboBox_altitudeMode": null,
         "fieldExpressionWidget_altitude": "0",
         "labelHeightWidget": {
@@ -35,14 +35,19 @@
         "styleWidget2": {
           "comboData": null,
           "comboText": "Expression",
-          "editText": "0.000173",
+          "editText": "12.21",
           "type": 1
         },
-        "styleWidget3": {},
+        "styleWidget3": {
+          "comboData": null,
+          "comboText": "Expression",
+          "editText": "building_counts_count_num ",
+          "type": 1
+        },
         "styleWidget4": {},
         "styleWidget5": {}
       },
-      "visible": false
+      "visible": true
     },
     {
       "geomType": 3,
@@ -53,7 +58,7 @@
         "checkBox_ExportAttrs": false,
         "checkBox_Visible": true,
         "comboBox_Label": null,
-        "comboBox_ObjectType": "Extruded",
+        "comboBox_ObjectType": "Overlay",
         "comboBox_altitudeMode": null,
         "fieldExpressionWidget_altitude": "0",
         "labelHeightWidget": {
@@ -76,18 +81,8 @@
           "editText": "",
           "type": 5
         },
-        "styleWidget2": {
-          "comboData": null,
-          "comboText": "Expression",
-          "editText": "0.000173",
-          "type": 1
-        },
-        "styleWidget3": {
-          "comboData": 0,
-          "comboText": "(No border)",
-          "editText": "",
-          "type": 7
-        },
+        "styleWidget2": {},
+        "styleWidget3": {},
         "styleWidget4": {},
         "styleWidget5": {}
       },
