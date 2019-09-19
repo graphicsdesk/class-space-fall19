@@ -1,2 +1,5 @@
-shapefiles
 .DS_Store
+
+shapefiles/*
+!shapefiles/building_points.*
+!shapefiles/building_poly.*
