@@ -6,3 +6,11 @@ I initially used `building_key.json` to map the names in Vergil to the IDs of bu
 
 ![](https://github.com/spec-journalism/class-space-fall19/blob/master/Web.jpeg)
 
+## Illustrator files
+
+* `fourt-draft.ai`: The final draft
+* `fourth-draft backup.ai`: Looks like an uncropped version of the final draft?
+* `first-draft.ai`: First try at matching numbers to polygons.
+* `g-earth.ai`: 3D (not bird's eye) view
+   * `g-earth.jpg`: Background image embed
+* `map-extent.png`: Not sure if this is being used
